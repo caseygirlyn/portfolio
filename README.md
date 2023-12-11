@@ -7,6 +7,8 @@ Welcome to my portfolio website! This project showcases my skills and projects i
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Screenshot](#screenshot)
+- [Link](#link-to-project)
 - [License](#license)
 
 ## Introduction
@@ -28,6 +30,10 @@ This portfolio website serves as a platform to present my professional backgroun
 ## Screenshot
 
 ![Home Page](./images/portfolio.png)
+
+## Link to Project
+
+The live version of this project can be found [here](https://caseygirlyn.github.io/portfolio/).
 
 ## Usage
 
