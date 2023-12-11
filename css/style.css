@@ -259,9 +259,17 @@ p {
   }
 }
 
-@media all and (max-width:767px) and (min-width: 426px){
+@media all and (max-width:767px) and (min-width: 576px){
   #contentGrid{
-    grid-template-rows: 400px auto auto auto auto;
+    grid-template-rows: 400px;
+  }
+  .links{
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .links a {
+    max-width: 50%;
+    flex: 0 0 50%;
   }
 }
 
