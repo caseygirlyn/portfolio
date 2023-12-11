@@ -207,3 +207,66 @@ p {
 .caption:hover {
   padding: 20px 40px;
 }
+
+@media all and (max-width:767px){
+  #header{
+    padding-bottom: 5px;
+  }
+  #header h1 {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  } 
+  #header nav{
+    float: none;
+  }
+  #header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+  }
+  #header nav ul li{
+    margin-left: 0;
+  }
+  .flex-content{
+    flex-direction:column;
+  }
+  .page-section h2, .page-section .sub-content{
+    width: 100%;
+  }
+  .page-section .sub-content{
+    border: none;
+  }
+  #contentGrid{
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "work1"
+    "work2"
+    "work3"
+    "work4"
+    "work5"
+  ;
+  }
+  .hero-banner-content{
+    flex-wrap: wrap;
+    transition: flex-basis 500ms linear;
+    width: 100%;
+  }
+  .hero-banner h2{
+    width: 100%;
+  }
+}
+
+@media all and (max-width:767px) and (min-width: 426px){
+  #contentGrid{
+    grid-template-rows: 400px auto auto auto auto;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .page-section{
+    padding: var(--default-size) 0;
+  }
+}
